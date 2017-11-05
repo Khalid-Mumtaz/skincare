@@ -1,0 +1,105 @@
+
+#body{
+border:0px solid black;
+height:600px;
+width:100%;
+}
+.contactuss{
+border:0px solid black;
+height:570px;
+width:40%;
+border-radius:10px;
+background:#ECF0F1; 
+margin-left:45px;
+display:inline-block;
+
+}
+.contactuss h3{
+font-size:32px;
+font-family:calibri;
+font-weight:normal;
+margin-left:45px;
+color:#2C3E50  ; 
+padding-top:20px;
+}
+.form-group {
+font-size:20px;
+font-family:calibri;
+color:BLACK  ; 
+margin-left:45px;
+font-weight:normal;
+}
+.form-group input{
+width:70%;
+height:25px;
+border-radius:5px;
+color:#F7F9F9;
+padding-top:2px;
+color:black;
+}
+.form-group2 {
+font-size:20px;
+font-family:calibri;
+color:#2C3E50  ; 
+margin-left:45px;
+font-weight:normal;
+}
+.form-group2 input{
+width:70%;
+height:25px;
+border-radius:5px;
+color:black;
+padding-top:2px;
+}
+.form-group3 {
+font-size:22px;
+font-family:calibri;
+color:#2C3E50  ; 
+margin-left:45px;
+font-weight:normal;
+}
+.form-group3 input{
+width:70%;
+height:25px;
+border-radius:5px;
+color:black;
+padding-top:2px;
+}
+.form-group4 {
+font-size:22px;
+font-family:calibri;
+color:#2C3E50  ; 
+margin-left:45px;
+font-weight:normal;
+}
+.form-group4 textarea{
+border-radius:5px
+}
+.button{
+float:right;
+margin-right:160px;
+font-size:20px;
+font-family:calibri;
+border-radius:5px;
+}
+
+.map{
+border:0px solid black;
+height:570px;
+width:40%;
+border-radius:10px;
+background:#ECF0F1; 
+float:right;
+display:inline-block;
+margin-right:100px;
+
+}
+.map iframe{
+border-radius:10px;
+width:100%
+}
+.map p{
+font-family:calibri;
+color:#797D7F;
+margin-left:10px;  
+}

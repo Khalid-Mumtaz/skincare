@@ -1,0 +1,48 @@
+.mainpic{
+border:0px solid black;
+height:938px;
+width:100%;
+background-image: url("images/112.jpg");
+}
+
+.firstline{
+
+}
+.left{
+border:0px solid black;
+height:300px;
+width:25%;
+margin-left:50px;
+margin-top:10px;
+display:inline-block;
+float:left;
+}
+.left img{
+height:300px;
+width:100%;
+}
+.center{
+border:0px solid black;
+height:300px;
+width:25%;
+display:inline-block;
+margin-left:110px;
+margin-top:10px;
+}
+.center img{
+height:300px;
+width:100%;
+}
+.right{
+border:0px solid black;
+height:300px;
+width:25%;
+display:inline-block;
+margin-top:10px;
+float:right;
+margin-right:100px;
+}
+.right img{
+height:300px;
+width:100%;
+}

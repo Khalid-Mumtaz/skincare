@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact US</title>
+<link rel="stylesheet" href= "styleabout.css" type="text/css"/>
+<link rel="stylesheet" href= "skine5.css" type="text/css"/>
+
+</head>
+<body>
+<div id="main">
+		<div id = "head">
+
+		<div class="top-left">
+        <a href = "home.html"><img src = "images/1234.png"  /></a>   
+		  </div>
+		
+		
+		<div class = "top-right">
+		
+		          <img src = "images/2.jpg" />
+		  
+		
+          </div>
+		
+		
+		
+		</div>
+
+<div class = "nav">
+
+			  <ul>
+          <li><a href = "home.html" >Home</a></li>
+          <li><a href = "f.html" >Treatments</a>
+          <li><a href = "about.html" >About</a></li>
+		  <li><a href = "cu.html" >Contact Us</a></li>
+          <li><a href = "pro.html" >Promotions</a></li>
+
+
+</div>	
+
+	
+
+<div id = "body">
+  <div class = "contactuss">
+  <h3>Contact Us</h3>
+<form accept-charset="UTF-8" action="/contact-us" method="post" parsley-validate="true">
+ <div class="form-group">
+          Name<span class="text-error">*</span><br />
+            <input class="form-control" id="contact_us_name" name="contact_us[name]" parsley-rangelength="[2,50]" parsley-required="true" parsley-trigger="change" type="text" />
+          </div>
+<div class="form-group2">
+            Email <span class="text-error">*</span><br />
+            <input class="form-control parsley-validated" id="contact_us_email" name="contact_us[email]" parsley-required="true" parsley-trigger="change" parsley-type="email" type="text">
+          </div>
+<div class="form-group3">
+            Subject <span class="text-error">*</span><br />
+            <input class="form-control parsley-validated" id="contact_us_subject" name="contact_us[subject]" parsley-rangelength="[5,100]" parsley-required="true" parsley-trigger="change" type="text">
+          </div>
+		      <div class="form-group4">
+            Message <span class="text-error">*</span><br />
+            <textarea class="form-control parsley-validated" id="contact_us_message" maxlength="500" name="contact_us[message]" onblur="updateTextAreaCount(this,event,&#39;neg&#39;,&#39;#contact_us_message&#39;, 250, &#39;#text_info&#39;);" onkeydown="updateTextAreaCount(this,event,&#39;neg&#39;,&#39;#contact_us_message&#39;, 250, &#39;#text_info&#39;);" onkeypress="updateTextAreaCount(this,event,&#39;neg&#39;,&#39;#contact_us_message&#39;, 250, &#39;#text_info&#39;);" onkeyup="updateTextAreaCount(this,event,&#39;neg&#39;,&#39;#contact_us_message&#39;, 250, &#39;#text_info&#39;);" onpaste="updateTextAreaCount(this,event,&#39;neg&#39;,&#39;#contact_us_message&#39;, 250, &#39;#text_info&#39;);" parsley-rangelength="[5,250]" parsley-required="true" parsley-trigger="change" rows="5" cols = "49"></textarea>
+            <p id="text_info">500 characters max</p>
+          </div>
+		  <button class = "button"><span>Submit</span></button>
+		  
+		  </form>    
+</div>
+		  </form>
+		  
+<div class = "map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54823.958506920055!2d73.42590030338835!3d30.81672579000807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39180c73f0000001%3A0xe8cb8b2de7d006fd!2sUniversity+of+Okara!5e0!3m2!1sen!2s!4v1479878209625" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<p>MS Skin Care</p>
+<p>University of Okara Renala Khurd</p>
+<p>2-KM, Renala Khurd - Okara Road, G.T. Road, 
+Okara، N-5، Okara 56300, 
+Pakistan</p>
+
+</div>
+</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+ <p>Copyright © 2017.MS Skin Care.PK <br/>
+All Rights Reserved</p>
+
+</div>
+
+		
+</div>
+
+</body>
+</html>
